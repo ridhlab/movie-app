@@ -1,5 +1,5 @@
 {
-  "name": "dot-onboarding-engineering",
+  "name": "movie-app",
   "version": "0.1.0",
   "private": true,
   "scripts": {
@@ -9,9 +9,20 @@
     "lint": "next lint"
   },
   "dependencies": {
+    "@chakra-ui/react": "^2.2.8",
+    "@emotion/react": "^11.10.0",
+    "@emotion/styled": "^11.10.0",
+    "@tanstack/react-query": "^4.2.1",
+    "axios": "^0.27.2",
+    "firebase": "^9.9.3",
+    "framer-motion": "^7.2.0",
     "next": "12.2.5",
     "react": "18.2.0",
-    "react-dom": "18.2.0"
+    "react-dom": "18.2.0",
+    "react-icons": "^4.4.0",
+    "react-indiana-drag-scroll": "^2.2.0",
+    "react-jwt": "^1.1.6",
+    "sweetalert2": "^11.4.29"
   },
   "devDependencies": {
     "@types/node": "18.7.6",
