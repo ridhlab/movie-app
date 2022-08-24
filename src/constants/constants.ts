@@ -1,0 +1,2 @@
+export const PRIMARY_COLOR_NORMAL = "#A020F0";
+export const PRIMARY_COLOR_DARKER = "#7410B1";
