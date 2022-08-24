@@ -52,7 +52,7 @@ const Genre: NextPage = ({ genres }: any) => {
 
   return (
     <div>
-      <HeadComp title="" />
+      <HeadComp title={genreSelected} />
       <LayoutRoot>{showData()}</LayoutRoot>
     </div>
   );
