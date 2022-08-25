@@ -1,6 +1,5 @@
 import React, { ReactNode, useEffect } from "react";
 import { NextPage } from "next";
-import Head from "next/head";
 import { useRouter } from "next/router";
 import { ErrorMessage, HeadComp, LayoutRoot } from "../src/components";
 import serviceMovieApi from "../src/services/api/movie";

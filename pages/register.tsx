@@ -1,8 +1,7 @@
 import { NextPage } from "next";
 import { Box, Heading, Input, Text } from "@chakra-ui/react";
-import React, { HTMLInputTypeAttribute, useEffect, useState } from "react";
-import { ButtonComp, Card, ContainerAuth, HeadComp, LayoutRoot } from "../src/components";
-import { useAuth } from "../src/context/Auth";
+import React, { HTMLInputTypeAttribute, useState } from "react";
+import { ButtonComp, ContainerAuth, HeadComp, LayoutRoot } from "../src/components";
 import Link from "next/link";
 import Swal from "sweetalert2";
 import { getAuth, createUserWithEmailAndPassword } from "firebase/auth";
