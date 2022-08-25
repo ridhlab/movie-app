@@ -1,5 +1,4 @@
 import { NextPage } from "next";
-import Head from "next/head";
 import { ErrorMessage, HeadComp, LayoutRoot, Loader } from "../src/components";
 import { ContainerMovieCategory } from "../src/components/Container";
 import serviceMovieApi from "../src/services/api/movie";

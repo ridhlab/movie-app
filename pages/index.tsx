@@ -1,9 +1,5 @@
-import { Box } from "@chakra-ui/react";
 import type { NextPage } from "next";
-import Head from "next/head";
-import Image from "next/image";
-import { HeadComp, Header, LayoutRoot, SectionNowPlaying, SectionPopular, SectionTopRated, SectionUpcoming } from "../src/components";
-import { useAuth } from "../src/context/Auth";
+import { HeadComp, LayoutRoot, SectionNowPlaying, SectionPopular, SectionTopRated, SectionUpcoming } from "../src/components";
 
 const Home: NextPage = () => {
   return (
